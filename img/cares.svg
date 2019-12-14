@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="245 -13 231 450" width="231" height="450">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="15.008022" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.15.1 
+    <dc:date>2020-04-24 01:58:02 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill="none" stroke-opacity="1" stroke="none" fill-opacity="1" stroke-dasharray="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_8">
+        <rect x="376.6979" y="18.436267" width="84.42013" height="370.1979" fill="blue"/>
+      </g>
+      <g id="Graphic_9">
+        <rect x="247.2537" y="138.50045" width="84.42013" height="250.1337" fill="#68bc36"/>
+      </g>
+      <g id="Graphic_10">
+        <text transform="translate(251.25334 404.10696)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15.008022" font-weight="400" fill="black" x="2344791e-19" y="14">CARES Act</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <text transform="translate(368.8637 395.39685)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15.008022" font-weight="400" fill="black" x="18.647468" y="14">Wealth of </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15.008022" font-weight="400" fill="black" x="73896445e-20" y="31.420223">400 Americans</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <text transform="translate(259.0275 114.5722)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15.008022" font-weight="400" fill="black" x="7354117e-19" y="14">$2 trillion</tspan>
+        </text>
+      </g>
+      <g id="Graphic_13">
+        <text transform="translate(378.0411 -5.491978)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15.008022" font-weight="400" fill="black" x="0" y="14">$2.96 trillion</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

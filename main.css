@@ -1,0 +1,812 @@
+body, html {
+  margin: 0;
+}
+body,
+html,
+.wealth-wrapper-outer
+.wealth-row {
+  min-height: 100%;
+}
+.title-screen {
+  width: 100vw;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  line-height: 0.9;
+  width: 100%;
+  margin-top: 100px;
+}
+.scroll-this-way {
+  align-self: flex-end;
+  width: 360px;
+  height: 165px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-top: 42px;
+  padding-left: 48px;
+
+  font-size: 30px;
+  color: #00000033;
+
+  background-image: url(img/right.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 50px 40px;
+
+  animation-name: bouncy-arrow;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+  animation-duration: 3s;
+}
+@media (max-width: 450px) {
+  .scroll-this-way {
+    right: -35vw;
+  }
+}
+@keyframes bouncy-arrow {
+  0% {background-position: 50px 40px;}
+  20% {background-position: 50px 40px;}
+  25% {background-position: 70px 40px;}
+  30% {background-position: 45px 40px;}
+  35% {background-position: 70px 40px;}
+  40% {background-position: 50px 40px;}
+  100% {background-position: 50px 40px;}
+}
+.wealth-wrapper-outer {
+  font-family: sans-serif;
+  overflow: visible;
+  display: inline-block;
+}
+.center-sticky {
+  position: sticky;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.navigation {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+}
+.navigation .button {
+  color: rgba(0,0,0,0);
+  width: 20px;
+  display: block;
+  height: 20px;
+  border-radius: 100%;
+  background-position: 5px;
+  background-color: #d8d8d8;
+  box-shadow: inset 1px 6px 12px #e2e2e2, inset -1px -10px 5px #a9a9a9, 1px 2px 1px #797979;
+  overflow: hidden;
+  margin: 4px;
+}
+.navigation .button-inner {
+  background-repeat: no-repeat;
+  background-size: 8px;
+  height: 100%;
+  background-position: 5px;
+}
+.navigation .prev-button .button-inner {
+  background-image: url(img/prev.svg);
+}
+.navigation .next-button .button-inner {
+  background-image: url(img/next.svg);
+  background-position: 7px 5px;
+}
+.navigation .home-button .button-inner {
+  background-image: url(img/house.svg);
+  background-size: 12px;
+  background-position: 4px 4px;
+}
+.navigation .about-button .button-inner {
+  color: #999999;
+  font-weight: bold;
+  text-decoration: none;
+  text-indent: 5px;
+  line-height: 22px;
+}
+
+
+.wealth-row {
+  display: inline-flex;
+}
+.arrow {
+  margin-left: -6px;
+  margin-top: 5px;
+}
+.wealth-wrapper {
+  margin: 1em 3em;
+}
+.wealth {
+  background-color: black;
+  align-items: center;
+  display: flex;
+}
+.title {
+  margin-bottom: 5px;
+}
+.billion .wealth > .wealth-title {
+  flex-basis: 110px;
+  position: static;
+}
+.four-hundred .wealth > .wealth-title {
+  flex-basis: 420px;
+}
+.four-hundred .intro {
+  margin-left: 0;
+  position: relative;
+  width: auto;
+}
+.wealth > .wealth-title {
+  flex-basis: 1%;
+  padding: 10px;
+}
+@media (max-width: 450px) {
+  .wealth-title {
+    font-size: 19px;
+  }
+}
+.wealth-title {
+  align-self: flex-start;
+  position: sticky;
+  left: 0;
+  margin-bottom: 5px;
+  color: black;
+  margin-top: 0;
+}
+.text-infobox .title,
+.infobox .chart {
+  max-width: 450px;
+}
+.infobox .chart img {
+  max-width: 100%;
+}
+.infobox .chart,
+.infobox .title-square-wrapper,
+.infobox .title {
+  font-weight: normal;
+  line-height: 1.4;
+  width: 96vw;
+  max-width: 600px;
+}
+@media (max-width: 450px) {
+  .infobox .midtext,
+  .infobox .title {
+    width: 90vw;
+  }
+}
+.infobox.year-veteran .title {
+  position: sticky;
+  left: 0;
+}
+.infobox .chart,
+.infobox .piechart,
+.infobox .worldchart,
+.infobox .chart-outer,
+.infobox .midtext,
+.infobox .title-square-wrapper,
+.text-infobox .title {
+  position: sticky;
+  left: 50%;
+  transform: translate(-50%);
+}
+@media (max-width: 450px) {
+  .infobox.line-chart .chart-outer {
+    left: 5px;
+    width: 98vw;
+  }
+  .infobox .square,
+  .infobox .title-square-wrapper,
+  .infobox .piechart,
+  .infobox .chart-outer,
+  .infobox .midtext,
+  .infobox .title {
+    left: 10px;
+    transform: none;
+  }
+}
+.sub-infobox .square,
+.sub-infobox .midtext,
+.sub-infobox .title {
+  position: static;
+}
+.infobox {
+  z-index: 1;
+  margin-left: 6000px;
+  width: 12000px;
+}
+.four-hundred .infobox {
+  width: 4000px;
+}
+.flex {
+  display: flex;
+}
+.infobox.first {
+  margin-left: 30000px;
+}
+.infobox.first .title {
+  max-width: 390px;
+}
+.infobox.coming-up .title,
+.infobox.five-pixels .title {
+  max-width: 280px;
+}
+.infobox-half {
+  margin-left: 4000px;
+}
+.infobox-quarter {
+  margin-left: 2000px;
+}
+.infobox-close {
+  margin-left: 500px;
+}
+.sub-infobox {
+  margin: 0 40px;
+}
+.sub-infobox .title {
+  width: 430px;
+}
+.midtext-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  width: 60%;
+}
+.column-infobox .sub-infobox {
+  margin-bottom: 20px;
+}
+.one-thousand {
+  width: 1px;
+  height: 1px;
+  margin-top: 5px;
+}
+.median {
+  width: 480px;
+}
+.median .wealth{
+  width: 7.94px;
+  height: 7.94px;
+}
+.million {
+  width: 200px;
+}
+.million .wealth {
+  width: 33.62px;
+  height: 33.62px;
+  background-color: #4CAF50;
+}
+.billion .wealth {
+  width: 2000px;
+  height: 500px;
+  background-color: #03A9F4;
+}
+.bezos .wealth {
+  width: 278000px;
+  height: 500px;
+  background-color: orange;
+}
+.four-hundred .wealth {
+  margin-left: 100px;
+  width: 5920000px;
+  height: 500px;
+  background-color: #03A9F4;
+}
+.ruler {
+  background-image: url('img/ruler.svg');
+  background-repeat: repeat-x;
+  background-position: 0 470px;
+}
+.key {
+  position: absolute;
+  top: 450px;
+  width: 170px;
+  background-image: url(img/scale.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 4px;
+  display: flex;
+  justify-content: center;
+}
+.key > span {
+  display: inline-block;
+}
+.bezos .key > span {
+  background-color: orange;
+}
+.four-hundred .key > span {
+  background-color: #03A9F4;
+}
+.shadow {
+  box-shadow: -3px 5px 10px;
+}
+.counter {
+  align-self: flex-end;
+  left: 10px;
+  position: sticky;
+  transform: translate(0, 27px);
+  color: black;
+  padding: 5px;
+}
+.lifetime .square {
+  width: 41.23px;
+  height: 41.23px;
+  background-color: blue;
+}
+.healthcare .square {
+  width: 4.96px;
+  height: 4.96px;
+  background-color: blue;
+}
+.amazon-year .square {
+  width: 5.4px;
+  height: 5.4px;
+  background-color: blue;
+}
+.year-veteran .square {
+  height: 400px;
+  width: 1186px;
+  margin-top: 5px;
+  background-color: #8BC34A;
+}
+.year-veteran .title {
+  width: auto;
+  padding: 10px;
+  max-width: 380px;
+  left: 0;
+}
+.year-veteran .square {
+  position: static;
+}
+.year-chemo {
+  width: auto;
+}
+.year-chemo .square {
+  height: 400px;
+  width: 22500px;
+  background-color: #03A9F4;
+  border: 5px dashed #0078af;
+  box-sizing: border-box;
+}
+.year-chemo .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.year-chemo .key {
+  top: 310px;
+}
+.year-chemo .key > span {
+  background-color: #03A9F4;
+}
+.celebrities {
+  display: flex;
+  width: auto;
+}
+.beyonce .square {
+  height: 350px;
+  width: 1142px;
+  background-color: #406994;
+}
+.goldman .square {
+  width: 223px;
+  height: 223px;
+  background-color: #64A8F0;
+}
+.tim-cook .square {
+  width: 1785px;
+  height: 350px;
+  background-color: #71889e;
+}
+.doctor .square {
+  width: 81.8px;
+  height: 81.8px;
+  background-color: #0661b9;
+}
+.lawyer .square {
+  width: 63.2px;
+  height: 63.2px;
+  background-color: #00478a;
+}
+.hedgefund .square {
+  width: 289.8px;
+  height: 289.8px;
+  background-color: #9daebf;
+}
+.line-chart .chart-outer {
+  width: 720px;
+  max-width: 100vw;
+  text-align: center;
+}
+.line-chart .chart-inner {
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.zoom.line-chart .chart-inner {
+  transition: box-shadow .8s;
+  box-shadow: inset 0 0 10px #00000042;
+}
+.zoom.line-chart svg {
+  transition: all 1.5s;
+  width: 940%;
+  height: auto;
+  margin-top: -102%;
+  margin-left: -20%;
+}
+@media (max-width: 450px) {
+  .line-chart .chart-inner .zero,
+  .line-chart .chart-inner .two-hundred-million,
+  .line-chart .chart-inner .zuck-name {
+    font-size: 28px;
+  }
+  .zuck-wealth {
+    font-size: 20px;
+  }
+  .line-chart .zero-outer {
+    transform: translate(160px, 356px);
+  }
+  .desktop-zuck {
+    display: none;
+  }
+  .zoom.line-chart svg {
+    width: 1200%;
+    margin-top: -120%;
+    margin-left: -16%;
+  }
+}
+@media (min-width: 451px) {
+  .mobile-zuck {
+    display: none;
+  }
+}
+.zoom-out,
+.zoom .zoom-in {
+  display: none;
+}
+.zoom .zoom-out {
+  display: inline;
+}
+.no-single-human .title {
+  max-width: 390px;
+}
+.people {
+  background-image: url('img/person.svg');
+  background-size: 20px;
+}
+.people.first {
+  margin-top: -1040px;
+}
+.people-wrapper-outer h2 {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  margin: 5px;
+}
+.people-wrapper {
+  width: 800px;
+  height: 400px;
+  overflow: scroll;
+}
+.four-hundred-people .people {
+  width: 800px;
+  height: 400px;
+}
+.sixty-percent-people .people {
+  width: 800px;
+  height: 197400px;
+}
+.sixty-percent-people .people-wrapper {
+  box-shadow: inset 0 0 10px #000000;
+}
+.bubble {
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 4px 4px 5px;
+  font-size: 28px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+.people-label {
+  position: absolute;
+  top: 40%;
+  left: 39%;
+}
+.scroll-indicator {
+  position: absolute;
+  top: 40%;
+  left: 260px;
+  font-size: 18px;
+  max-width: 240px;
+}
+.people-sub-label {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.people-wrapper .percent {
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 1000px;
+  top: 160px;
+  margin-left: 350px;
+}
+@media (max-width: 450px) {
+  .people {
+    background-size: 10px;
+  }
+  .people-wrapper {
+    width: 200px;
+    height: 400px;
+  }
+  .four-hundred-people .people {
+      width: 200px;
+      height: 400px;
+  }
+  .sixty-percent-people .people {
+    width: 200px;
+    height: 394800000px;
+  }
+  .people-label {
+    left: 35px;
+    font-size: 20px;
+  }
+  .people-wrapper .percent {
+    margin-left: 66px;
+  }
+}
+.ninety-wrapper,
+.plane-wrapper {
+  width: 480px;
+  max-width: 96vw;
+}
+.ninety-wrapper img,
+.plane-wrapper img {
+  width: 100%;
+  height: auto;
+}
+.what-could-we-do.title {
+  width: 320px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.piechart {
+  position: relative;
+}
+.piechart .piechart-outer {
+  width: 300px;
+  height: 300px;
+  transform: rotate(-50deg);
+  background: yellowgreen;
+  border-radius: 50%;
+}
+.piechart .piechart-inner {
+  fill: yellowgreen;
+  stroke: #655;
+  stroke-width: 32;
+}
+@media (max-width: 450px) {
+  .piechart h2 {
+    font-size: 17px;
+  }
+}
+.two-point-seven-percent .piechart-inner {
+  stroke-dasharray: 2.7 100;
+}
+.six-percent .piechart-inner {
+  stroke-dasharray: 6 100;
+}
+.six-percent .piechart-outer {
+  transform: rotate(-45deg);
+}
+.eight-percent .piechart-inner {
+  stroke-dasharray: 8 100;
+}
+.two-point-seven-percent .piechart-outer,
+.three-percent .piechart-outer {
+  transform: rotate(-38deg);
+}
+.five-percent .piechart-outer {
+  transform: rotate(-43deg);
+}
+.four-tenths-percent .piechart-outer {
+  transform: rotate(-34deg);
+}
+.four-tenths-percent .piechart-inner {
+  stroke-dasharray: .4 100;
+}
+.three-percent .piechart-inner {
+  stroke-dasharray: 3 100;
+}
+.five-percent .piechart-inner {
+  stroke-dasharray: 5 100;
+}
+.forty-percent .piechart-inner {
+  stroke-dasharray: 43 100;
+}
+.piechart .dotted-line {
+  position: absolute;
+  width: 80px;
+  height: 0;
+  top: 40px;
+  left: 270px;
+  border-top: 2px dashed black;
+  transform: rotate(-38deg);
+}
+.piechart .label {
+  position: absolute;
+  left: 347px;
+  top: -7px;
+  font-size: 24px;
+}
+@media (max-width: 450px) {
+  .piechart .label {
+    left: 277px;
+    top: 43px;
+    font-size: 18px;
+  }
+  .piechart .dotted-line {
+    display: none;
+  }
+}
+.piechart .description {
+  width: 300px;
+  text-align: center;
+}
+.about {
+  visibility: hidden;
+  transition: opacity .7s;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.about.open {
+  visibility: visible;
+  opacity: 1;
+}
+.modal-inner {
+  opacity: 1;
+  position: fixed;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 0;
+  width: 0;
+  overflow: scroll;
+  transition: height .7s, width .7s;
+  background-color: white;
+}
+.modal-text {
+  width: calc(90vw - 40px);
+  height: calc(95vh - 40px);
+  overflow: visible;
+  padding: 20px;
+}
+.about.open .modal-inner,
+.about.open .modal-inner {
+  height: 95vh;
+  width: 90vw;
+}
+.malaria .babies {
+  height: 9120320px;
+  background-size: 160px;
+  background-image: url(img/baby.svg);
+}
+.malaria .babies-wrapper {
+  box-shadow: inset 0 0 10px #00000042;
+  width: 800px;
+  height: 320px;
+  overflow: scroll;
+}
+.baby-counter {
+  top: 127px;
+  position: sticky;
+  display: inline-block;
+  left: 350px;
+  margin-top: 1800px;
+}
+@media (max-width: 450px) {
+  .malaria .babies-wrapper {
+    max-width: 340px;
+    height: 340px;
+  }
+  .malaria .babies {
+    background-size: 68px;
+    height: 3876340px;
+  }
+  .scroll-indicator {
+    top: 38%;
+    left: 40px;
+  }
+  .baby-counter {
+    left: 135px;
+  }
+}
+.infectious {
+  display: flex;
+  align-items: center;
+}
+.ebola-bar {
+  max-width: 300px;
+}
+.ebola-bar .title {
+  max-width: 100%;
+}
+.ebola-bar .square {
+  height: 122px;
+  width: 122px;
+  background-color: #00bb42;
+}
+.corona-bar .title,
+.malaria-bar .title {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.malaria-bar .square {
+  height: 400px;
+  width: 337px;
+  background-color: #66c35a;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.corona-bar .square {
+  height: 400px;
+  width: 500px;
+  background-color: green;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.corona-bar,
+.malaria-bar,
+.ebola-bar {
+  color: black;
+  margin: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+@media (max-width: 450px) {
+  h3 {
+    font-size: 14px;
+  }
+}
+.cares .chart {
+  text-align: center;
+}
+.worldchart-wrapper {
+  display: flex;
+}
+.worldchart {
+  text-align: center;
+  width: 320px;
+}
+.worldchart img {
+  max-width: 100%;
+}
+.worldchart-wrapper .description {
+  text-align: center;
+}
+.all-of-them .title {
+  width: 370px;
+}

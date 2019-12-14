@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="271 138 457 394" width="457" height="394">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="NegativeControls_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 2 8" markerWidth="2" markerHeight="8" color="black">
+      <g>
+        <line x1="0" y1="-2.4" x2="0" y2="2.4" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="NegativeControls_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 2 8" markerWidth="2" markerHeight="8" color="black">
+      <g>
+        <line x1="0" y1="2.4" x2="0" y2="-2.4" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.12.1 
+    <dc:date>2019-12-18 15:16:31 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_2" fill-opacity="1" stroke-dasharray="none" fill="none" stroke="none" stroke-opacity="1">
+    <title>Canvas 2</title>
+    <g id="Canvas_2: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <rect x="279" y="138.75" width="395" height="31.5" fill="#666"/>
+        <text transform="translate(284 145.276)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">California</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <rect x="279" y="182" width="381" height="31.5" fill="#c71b03"/>
+        <text transform="translate(284 188.526)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">Americans living in poverty</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <rect x="279" y="225.25" width="287" height="31.5" fill="#666"/>
+        <text transform="translate(284 231.776)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">Texas</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <rect x="279" y="316.75" width="195" height="31.5" fill="#666"/>
+        <text transform="translate(284 323.276)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">New York</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <rect x="279" y="271" width="212" height="31.5" fill="#666"/>
+        <text transform="translate(284 277.526)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">Florida</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <rect x="279" y="362.5" width="128" height="31.5" fill="#666"/>
+        <text transform="translate(284 369.026)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">Pennsylvania</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <rect x="279" y="408.25" width="126" height="31.5" fill="#666"/>
+        <text transform="translate(284 414.776)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">Illinois</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <rect x="279" y="454" width="116" height="31.5" fill="#666"/>
+        <text transform="translate(284 460.526)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">Ohio</tspan>
+        </text>
+      </g>
+      <g id="Line_15">
+        <line x1="279.79124" y1="498.2" x2="688.3912" y2="498.2" marker-end="url(#NegativeControls_Marker)" marker-start="url(#NegativeControls_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_16">
+        <text transform="translate(276 508.4)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="31974423e-20" y="15">0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_17">
+        <text transform="translate(654.6 508.2)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">40 million</tspan>
+        </text>
+      </g>
+      <g id="Line_20">
+        <line x1="279" y1="485.3672" x2="278.9922" y2="138.89062" stroke="black" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
