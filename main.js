@@ -51,21 +51,23 @@ babies.addEventListener('scroll', function(){
 //Todo: stop executing once scrolled past
 function update_wealth_counter() {
   if (bezos_viewable()) {
+    let wealth = (window.scrollX - bezos.offsetLeft + 175) * 500000;
+    bezos_counter.innerHTML = (wealth < 139000000000) ? money.format(wealth) : "$139,000,000,000.00";
     if (bezos_counter_viewable()) {
-      let wealth = (window.scrollX - bezos.offsetLeft + 175) * 500000;
-      bezos_counter.innerHTML = (wealth < 139000000000) ? money.format(wealth) : "$139,000,000,000.00";
+      bezos_counter.style.visibility = 'visible';
     }
     else {
-      bezos_counter.innerHTML = '';
+      bezos_counter.style.visibility = 'hidden';
     }
   }
   else if (four_hundred_viewable()) {
+    let wealth = (window.scrollX - four_hundred.offsetLeft + 175) * 500000;
+    four_hundred_counter.innerHTML = (wealth < 2960000000000) ? money.format(wealth) : "$2,960,000,000,000.00";
     if (four_hundred_counter_viewable()) {
-      let wealth = (window.scrollX - four_hundred.offsetLeft + 175) * 500000;
-      four_hundred_counter.innerHTML = (wealth < 2960000000000) ? money.format(wealth) : "$2,960,000,000,000.00";
+      four_hundred_counter.style.visibility = 'visible';
     }
     else {
-      bezos_counter.innerHTML = '';
+      four_hundred_counter.style.visibility = 'hidden';
     }
   }
   function bezos_viewable() {
