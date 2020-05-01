@@ -16,6 +16,8 @@ var thousand = new Intl.NumberFormat('en-US')
 var money = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD',
+  minimumFractionDigits: 0,
+  maximumFractionDigits: 0,
 });
 
 //todo: also work for 400 richest
