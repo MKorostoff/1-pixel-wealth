@@ -1,6 +1,6 @@
 //German i18n data
-
-window.i18n['de'] = {
+window.i18n_data = {
+code : 'de',
 strings : {
 'i18n-wealth-shown-to' : "Reichtum ma&szlig;stabsgetreu dargestellt",
 'i18n-scroll' : "scrollen",

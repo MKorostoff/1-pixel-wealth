@@ -1,5 +1,6 @@
-//Reference i18n data. To translate, copy this file and change the language code in the next line from 'en' to that of the language you are translating to. Leave the first part of each line unchanged.
-window.i18n['en'] = {
+//Reference i18n data. To translate, copy this file and change the language code below from 'en' to that of the language you are translating to. Leave the first part of each line unchanged.
+window.i18n_data = {
+code : 'en',
 strings : {
 'i18n-wealth-shown-to' : "Wealth shown to scale",
 'i18n-scroll' : "scroll",
