@@ -489,7 +489,8 @@ h1 {
 .people-wrapper {
   width: 800px;
   height: 400px;
-  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .four-hundred-people .people {
   width: 800px;
@@ -713,7 +714,8 @@ h1 {
   box-shadow: inset 0 0 10px #00000042;
   width: 800px;
   height: 320px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .baby-counter {
   top: 127px;
