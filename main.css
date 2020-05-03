@@ -329,6 +329,7 @@ h1 {
   transform: translate(0, 27px);
   color: black;
   padding: 5px;
+  min-width: 140px;
 }
 .lifetime .square {
   width: 41.23px;
@@ -497,7 +498,7 @@ h1 {
 }
 .sixty-percent-people .people {
   width: 800px;
-  height: 197400px;
+  height: 1974000px;
 }
 .sixty-percent-people .people-wrapper {
   box-shadow: inset 0 0 10px #000000;
@@ -557,7 +558,7 @@ h1 {
   }
   .sixty-percent-people .people {
     width: 200px;
-    height: 394800000px;
+    height: 1974000px;
   }
   .people-label {
     left: 35px;
