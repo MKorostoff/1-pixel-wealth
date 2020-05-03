@@ -84,3 +84,20 @@ function update_wealth_counter() {
 function toggleZoom() {
   document.getElementById('line-chart').classList.toggle('zoom');
 }
+
+function transformYScrollToX(event) {
+  if (!event.deltaY) {
+    return;
+  }
+
+  event.currentTarget.scrollLeft += event.deltaY + event.deltaX;
+  event.preventDefault();
+}
+
+function enableTransformYScrollToX() {
+  var element = document.scrollingElement || document.documentElement;
+  element.addEventListener('wheel', transformYScrollToX);
+}
+
+// Allow using normal scroll-wheel instead of having to drag the scrollbar
+enableTransformYScrollToX();
