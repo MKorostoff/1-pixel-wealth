@@ -329,6 +329,7 @@ h1 {
   transform: translate(0, 27px);
   color: black;
   padding: 5px;
+  min-width: 140px;
 }
 .lifetime .square {
   width: 41.23px;

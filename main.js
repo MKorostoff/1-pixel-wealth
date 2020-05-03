@@ -67,7 +67,7 @@ function update_wealth_counter() {
       four_hundred_counter.innerHTML = (wealth < 2960000000000) ? money.format(wealth) : "$2,960,000,000,000.00";
     }
     else {
-      bezos_counter.innerHTML = '';
+      four_hundred_counter.innerHTML = '';
     }
   }
   function bezos_viewable() {
