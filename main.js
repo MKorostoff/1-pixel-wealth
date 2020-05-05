@@ -25,10 +25,23 @@ window.addEventListener('scroll', function(){
   update_wealth_counter();
 });
 
+window.addEventListener("mousewheel", convert_vertical_to_horizontal, { passive: false });
+window.addEventListener("DOMMouseScroll", convert_vertical_to_horizontal, { passive: false });
+
+function convert_vertical_to_horizontal(e) {
+  console.log(e.target);
+  if (!e.target.dataset.verticalScroll) {
+    e.preventDefault();
+    document.documentElement.scrollLeft += e.deltaY + e.deltaX;
+  }
+}
+
+
 function generate_sixty_percent() {
   for (var i = 0; i < 100; i++) {
     var node = document.createElement("div");
     node.classList = "people";
+    node.setAttribute('data-vertical-scroll', true);
     if (i === 0) {
       node.classList += " first";
     }
