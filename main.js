@@ -29,7 +29,6 @@ window.addEventListener("mousewheel", convert_vertical_to_horizontal, { passive:
 window.addEventListener("DOMMouseScroll", convert_vertical_to_horizontal, { passive: false });
 
 function convert_vertical_to_horizontal(e) {
-  console.log(e.target);
   if (!e.target.dataset.verticalScroll) {
     e.preventDefault();
     document.documentElement.scrollLeft += e.deltaY + e.deltaX;
