@@ -16,7 +16,7 @@ This page has been translated by volunteers into six languages that I know of. I
 - https://flpms.github.io/1-pixel-wealth
 
 ## Russian/русский:
-- https://github.com/aensidhe/1-pixel-wealth
+- https://aensidhe.ru/1-pixel-wealth/
 
 ## Romanian/Română:
 - https://andreicristianpetcu.github.io/1-pixel-wealth
