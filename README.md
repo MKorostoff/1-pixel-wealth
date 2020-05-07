@@ -8,7 +8,7 @@ This page has been translated by volunteers into six languages that I know of. I
 
 ## Spanish/Español:
 - https://cjbarroso.com/1-pixel-wealth
-- https://blog.jota.pe/1-pixel-wealth/es
+- https://jhoon.github.io/1-pixel-wealth/es
 - https://hmijail.github.io/1-pixel-wealth/es
 - https://jsandovalc.github.io/1-pixel-wealth
 
