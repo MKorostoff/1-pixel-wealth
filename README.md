@@ -15,6 +15,9 @@ This page has been translated by volunteers into six languages that I know of. I
 ## Portuguese/Português:
 - https://flpms.github.io/1-pixel-wealth
 
+## German
+- https://eattherichtextformat.github.io/1-pixel-wealth/de/
+
 ## Russian/русский:
 - https://aensidhe.ru/1-pixel-wealth/
 
