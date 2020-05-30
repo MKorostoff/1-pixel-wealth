@@ -41,6 +41,16 @@ h1 {
   animation-direction: forward;
   animation-duration: 3s;
 }
+.about-this {
+  position: absolute;
+  color: #00000050;
+  bottom: 25px;
+  left: 50%;
+  font-size: 12px;
+  display: block;
+  font-style: italic;
+  transform: translate(-50%, 0);
+}
 @media (max-width: 450px) {
   .scroll-this-way {
     right: -35vw;
