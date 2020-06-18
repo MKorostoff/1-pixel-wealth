@@ -19,8 +19,32 @@ var money = new Intl.NumberFormat('en-US', {
   minimumFractionDigits: 0,
   maximumFractionDigits: 0,
 });
+var additional_instructions_shown = false;
 
-//todo: also work for 400 richest
+function detect_confused_user(e, timer) {
+  if (!additional_instructions_shown) {
+    additional_instructions_shown = true;
+
+    setTimeout(function(){
+      if (window.scrollX < 1) {
+        document.getElementById('instructions').classList.add("show");
+      }
+    }, timer);
+  }
+}
+function detect_slightly_confused_user(e, timer) {
+  detect_confused_user(e, 2000);
+}
+function detect_very_confused_user(e, timer) {
+  detect_confused_user(e, 4500);
+}
+
+if (window.innerWidth > 450) {
+  document.addEventListener("mousemove", detect_very_confused_user, {once: true});
+  document.addEventListener("mousewheel", detect_slightly_confused_user, {once: true});
+  document.addEventListener("DOMMouseScroll", detect_slightly_confused_user, {once: true});
+}
+
 window.addEventListener('scroll', function(){
   update_wealth_counter();
 });
@@ -86,3 +110,5 @@ function update_wealth_counter() {
 function toggleZoom() {
   document.getElementById('line-chart').classList.toggle('zoom');
 }
+
+
