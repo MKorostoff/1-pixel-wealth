@@ -20,7 +20,7 @@ This page has been translated by volunteers into eight languages that I know of.
 
 # Select Sources
 
-_[A note on the role of citations in this project](https://github.com/MKorostoff/1-pixel-wealth/issues/3#issuecomment-621573036)_
+_[A note on the role of citations in this project](https://github.com/MKorostoff/1-pixel-wealth/issues/40#issuecomment-648932718)_
 
 - [Wealth of richest people](https://www.forbes.com/forbes-400/#15b032877e2f)
 - [Perceptions of inequality](https://www.ncbi.nlm.nih.gov/pubmed/26162108)
