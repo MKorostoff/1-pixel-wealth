@@ -295,13 +295,13 @@ h1 {
   background-color: #03A9F4;
 }
 .bezos .wealth {
-  width: 278000px;
+  width: 342000px;
   height: 500px;
   background-color: orange;
 }
 .four-hundred .wealth {
   margin-left: 100px;
-  width: 5920000px;
+  width: 7000000px;
   height: 500px;
   background-color: #03A9F4;
 }
@@ -481,6 +481,9 @@ h1 {
 .zoom .zoom-out {
   display: inline;
 }
+.no-single-human {
+  margin-left: 18000px;
+}
 .no-single-human .title {
   max-width: 390px;
 }
@@ -590,7 +593,7 @@ h1 {
   height: auto;
 }
 .what-could-we-do.title {
-  width: 320px;
+  width: 330px;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
@@ -624,14 +627,14 @@ h1 {
 .six-percent .piechart-outer {
   transform: rotate(-45deg);
 }
-.eight-percent .piechart-inner {
-  stroke-dasharray: 8 100;
+.six-point-eight-percent .piechart-inner {
+  stroke-dasharray: 6.8 100;
 }
 .two-point-seven-percent .piechart-outer,
-.three-percent .piechart-outer {
+.two-point-eight-percent .piechart-outer {
   transform: rotate(-38deg);
 }
-.five-percent .piechart-outer {
+.four-percent .piechart-outer {
   transform: rotate(-43deg);
 }
 .four-tenths-percent .piechart-outer {
@@ -640,14 +643,17 @@ h1 {
 .four-tenths-percent .piechart-inner {
   stroke-dasharray: .4 100;
 }
-.three-percent .piechart-inner {
-  stroke-dasharray: 3 100;
+.two-point-eight-percent .piechart-inner {
+  stroke-dasharray: 2.8 100;
 }
-.five-percent .piechart-inner {
-  stroke-dasharray: 5 100;
+.four-point-three-percent .piechart-inner {
+  stroke-dasharray: 4.3 100;
 }
-.forty-percent .piechart-inner {
-  stroke-dasharray: 43 100;
+.four-point-eight-percent .piechart-inner {
+  stroke-dasharray: 4.8 100;
+}
+.thirty-six-percent .piechart-inner {
+  stroke-dasharray: 36 100;
 }
 .piechart .dotted-line {
   position: absolute;
