@@ -79,7 +79,7 @@ function update_wealth_counter() {
   if (bezos_viewable()) {
     if (bezos_counter_viewable()) {
       let wealth = (window.scrollX - bezos.offsetLeft + 175) * 500000;
-      bezos_counter.innerHTML = (wealth < 171000000000) ? money.format(wealth) : "$171,000,000,000";
+      bezos_counter.innerHTML = (wealth < 186000000000) ? money.format(wealth) : "$186,000,000,000";
     }
     else {
       bezos_counter.innerHTML = '';
