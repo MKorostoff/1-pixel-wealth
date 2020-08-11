@@ -4,7 +4,7 @@ Source code for https://mkorostoff.github.io/1-pixel-wealth/
 
 # Translations
 
-This page has been translated by volunteers into eight languages that I know of. I am not directly involved with any of these translations, and I don't speak any of these languages, so I can't promise they are accurate. If you'd like to create a translation, see [instructions here](https://github.com/MKorostoff/1-pixel-wealth/issues/8#issuecomment-622964168).  Once you've finished, provide a link in the [issue queue](https://github.com/MKorostoff/1-pixel-wealth/issues/new) and I'll update this readme.
+This page has been translated by volunteers into nine languages that I know of. I am not directly involved with any of these translations, and I don't speak any of these languages, so I can't promise they are accurate. If you'd like to create a translation, see [instructions here](https://github.com/MKorostoff/1-pixel-wealth/issues/8#issuecomment-622964168).  Once you've finished, provide a link in the [issue queue](https://github.com/MKorostoff/1-pixel-wealth/issues/new) and I'll update this readme.
 
 - [Spanish/Español 1](https://cjbarroso.com/1-pixel-wealth)
 - [Spanish/Español 2](https://jhoon.github.io/1-pixel-wealth/es)
@@ -17,6 +17,7 @@ This page has been translated by volunteers into eight languages that I know of.
 - [Chinese/中文](https://doodledu.github.io/1-pixel-wealth)
 - [Czech/čeština](https://kerray.github.io/1-pixel-bohatstvi)
 - [French/Française](https://tgluis.github.io/1-pixel-wealth/)
+- [Dutch/Nederlands](https://jobveldhuis.github.io/1-pixel-weelde/)
 
 # Select Sources
 
