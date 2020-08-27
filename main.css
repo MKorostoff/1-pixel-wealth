@@ -226,8 +226,8 @@ h1 {
 }
 .infobox {
   z-index: 1;
-  margin-left: 6000px;
-  width: 12000px;
+  margin-left: 8000px;
+  width: 15000px;
 }
 .four-hundred .infobox {
   width: 4000px;
@@ -295,7 +295,7 @@ h1 {
   background-color: #03A9F4;
 }
 .bezos .wealth {
-  width: 342000px;
+  width: 400000px;
   height: 500px;
   background-color: orange;
 }
