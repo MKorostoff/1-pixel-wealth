@@ -41,6 +41,13 @@ h1 {
   animation-direction: forward;
   animation-duration: 3s;
 }
+.also {
+  position: absolute;
+  bottom: 40px;
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+}
 .about-this {
   position: absolute;
   color: #00000050;
