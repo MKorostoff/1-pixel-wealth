@@ -18,7 +18,8 @@ This page has been translated by volunteers into ten languages that I know of. I
 - [Czech/čeština](https://kerray.github.io/1-pixel-bohatstvi)
 - [French/Française](https://tgluis.github.io/1-pixel-wealth/)
 - [Dutch/Nederlands](https://jobveldhuis.github.io/1-pixel-weelde/)
-- [Italian/Italiano](https://lostcrew.github.io/1-pixel-wealth)
+- [Italian/Italiano 1](https://lostcrew.github.io/1-pixel-wealth)
+- [Italian/Italiano 2](https://giacomoortona.github.io/1-pixel-wealth/)
 
 # Select Sources
 
