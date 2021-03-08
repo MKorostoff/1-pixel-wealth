@@ -854,6 +854,11 @@ h1 {
 .all-of-them .title {
   width: 370px;
 }
+@media (max-width: 450px) {
+  .all-of-them .title {
+    width: 340px;
+  }
+}
 .instructions {
   transition: opacity 300ms;
   margin-top: 40px;
