@@ -153,10 +153,11 @@ h1 {
 .four-hundred .wealth > .wealth-title {
   flex-basis: 420px;
 }
-.four-hundred .intro {
+.four-hundred .infobox.intro {
   margin-left: 0;
   position: relative;
   width: auto;
+  width: 10000px;
 }
 .wealth > .wealth-title {
   flex-basis: 1%;
@@ -282,14 +283,18 @@ h1 {
   margin-top: 5px;
 }
 .median {
-  width: 480px;
+  width: 320px;
 }
-.median .wealth{
+.median .wealth {
   width: 7.94px;
   height: 7.94px;
 }
+.explainer {
+  font-size: 16px;
+  font-weight: normal;
+}
 .million {
-  width: 200px;
+  width: 150px;
 }
 .million .wealth {
   width: 31.62px;
@@ -301,8 +306,13 @@ h1 {
   height: 500px;
   background-color: #03A9F4;
 }
+@media (max-width: 450px) {
+  .billion .wealth {
+    border-bottom: 3px dotted #007fb7;
+  }
+}
 .bezos .wealth {
-  width: 400000px;
+  width: 352000px;
   height: 500px;
   background-color: orange;
 }
@@ -377,6 +387,14 @@ h1 {
 }
 .year-veteran .square {
   position: static;
+}
+@media (max-width: 450px) {
+ .year-veteran .title {
+   max-width: 210px;
+ }
+ .year-veteran .square {
+   border-bottom: 4px dashed #75a23e;
+ }
 }
 .year-chemo {
   width: auto;

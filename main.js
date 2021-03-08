@@ -74,12 +74,11 @@ babies.addEventListener('scroll', function(){
   baby_counter.innerHTML = thousand.format(Math.floor(babies.scrollTop / bg_size * 5));
 })
 
-//Todo: stop executing once scrolled past
 function update_wealth_counter() {
   if (bezos_viewable()) {
     if (bezos_counter_viewable()) {
       let wealth = (window.scrollX - bezos.offsetLeft + 175) * 500000;
-      bezos_counter.innerHTML = (wealth < 200000000000) ? money.format(wealth) : "$200,000,000,000";
+      bezos_counter.innerHTML = (wealth < 176000000000) ? money.format(wealth) : "$176,000,000,000";
     }
     else {
       bezos_counter.innerHTML = '';
