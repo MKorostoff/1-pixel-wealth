@@ -1,4 +1,4 @@
-### What is the total amount of medical debt held by all Americans combined
+### What is the total amount of medical debt held by all Americans combined?
 
 *Published April 4, 2021*
 
