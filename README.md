@@ -10,6 +10,7 @@ This page has been translated by volunteers into twelve languages that I know of
 - [Spanish/Español 2](https://jhoon.github.io/1-pixel-wealth/es)
 - [Spanish/Español 3](https://hmijail.github.io/1-pixel-wealth/es)
 - [Spanish/Español 4](https://jsandovalc.github.io/1-pixel-wealth)
+- [Spanish/Español 5](https://dotmanu.github.io/1-pixel-wealth/) (rewritten for Spain)
 - [Portuguese/Português](https://flpms.github.io/1-pixel-wealth)
 - [German/Deutsch](https://eattherichtextformat.github.io/1-pixel-wealth/de/)
 - [Russian/русский](https://aensidhe.ru/1-pixel-wealth/)
