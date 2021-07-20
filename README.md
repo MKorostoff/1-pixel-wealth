@@ -23,6 +23,7 @@ This page has been translated by volunteers into twelve languages that I know of
 - [Italian/Italiano 2](https://giacomoortona.github.io/1-pixel-wealth/) (rewritten for Italy)
 - [Farsi/فارسی](https://hkalbasi.github.io/etc/1-pixel-wealth/)
 - [Turkish/Türk](https://seaque.github.io/1-pixel-wealth/)
+- [Polish/Polskie](https://github.com/adamklimowski/1-pixel-wealth)
 
 # Select Sources
 
