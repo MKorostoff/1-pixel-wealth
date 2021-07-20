@@ -4,7 +4,7 @@ Source code for https://mkorostoff.github.io/1-pixel-wealth/
 
 # Translations and Adaptations
 
-This page has been translated by volunteers into twelve languages that I know of. I am not directly involved with any of these translations, and I don't speak any of these languages, so I can't promise they are accurate. If you'd like to create a translation, see [instructions here](https://github.com/MKorostoff/1-pixel-wealth/issues/8#issuecomment-622964168).  Once you've finished, provide a link in the [issue queue](https://github.com/MKorostoff/1-pixel-wealth/issues/new) and I'll update this readme.
+This page has been translated by volunteers into thirteen languages that I know of. I am not directly involved with any of these translations, and I don't speak any of these languages, so I can't promise they are accurate. If you'd like to create a translation, see [instructions here](https://github.com/MKorostoff/1-pixel-wealth/issues/8#issuecomment-622964168).  Once you've finished, provide a link in the [issue queue](https://github.com/MKorostoff/1-pixel-wealth/issues/new) and I'll update this readme.
 
 - [Spanish/Español 1](https://cjbarroso.com/1-pixel-wealth)
 - [Spanish/Español 2](https://jhoon.github.io/1-pixel-wealth/es)
