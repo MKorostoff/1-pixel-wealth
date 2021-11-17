@@ -21,7 +21,7 @@ This page has been translated by volunteers into thirteen languages that I know 
 - [Dutch/Nederlands](https://jobveldhuis.github.io/1-pixel-weelde/)
 - [Italian/Italiano 1](https://lostcrew.github.io/1-pixel-wealth)
 - [Italian/Italiano 2](https://giacomoortona.github.io/1-pixel-wealth/) (rewritten for Italy)
-- [Farsi/فارسی](https://hkalbasi.github.io/etc/1-pixel-wealth/)
+- [Farsi/فارسی](https://persianhodhod.ir/wealth-in-pixels/)
 - [Turkish/Türk](https://seaque.github.io/1-pixel-wealth/)
 - [Polish/Polskie](https://adamklimowski.github.io/1-pixel-wealth/)
 
