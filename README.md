@@ -13,6 +13,7 @@ This page has been translated by volunteers into thirteen languages that I know 
 - [Spanish/Español 5](https://dotmanu.github.io/1-pixel-wealth/) (rewritten for Spain)
 - [Portuguese/Português](https://flpms.github.io/1-pixel-wealth)
 - [German/Deutsch](https://eattherichtextformat.github.io/1-pixel-wealth/de/)
+- [German/Deutsch 2](https://vermoegen.moment.at) (rewritten for Austria)
 - [Russian/русский](https://aensidhe.ru/1-pixel-wealth/)
 - [Romanian/Română](https://github.com/andreicristianpetcu/1-pixel-wealth)
 - [Chinese/中文](https://doodledu.github.io/1-pixel-wealth)
