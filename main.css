@@ -46,22 +46,12 @@ h1 {
   animation-direction: forward;
   animation-duration: 3s;
 }
-.also {
+.footer {
   position: absolute;
   bottom: 40px;
   text-align: center;
   font-size: 12px;
   width: 100%;
-}
-.about-this {
-  position: absolute;
-  color: #00000050;
-  bottom: 25px;
-  left: 50%;
-  font-size: 12px;
-  display: block;
-  font-style: italic;
-  transform: translate(-50%, 0);
 }
 @media (max-width: 450px) {
   .scroll-this-way {
@@ -158,10 +148,11 @@ h1 {
 .four-hundred .wealth > .wealth-title {
   flex-basis: 420px;
 }
-.four-hundred .intro {
+.four-hundred .infobox.intro {
   margin-left: 0;
   position: relative;
   width: auto;
+  width: 10000px;
 }
 .wealth > .wealth-title {
   flex-basis: 1%;
@@ -287,14 +278,18 @@ h1 {
   margin-top: 5px;
 }
 .median {
-  width: 480px;
+  width: 320px;
 }
-.median .wealth{
+.median .wealth {
   width: 7.94px;
   height: 7.94px;
 }
+.explainer {
+  font-size: 16px;
+  font-weight: normal;
+}
 .million {
-  width: 200px;
+  width: 150px;
 }
 .million .wealth {
   width: 31.62px;
@@ -306,14 +301,19 @@ h1 {
   height: 500px;
   background-color: #03A9F4;
 }
+@media (max-width: 450px) {
+  .billion .wealth {
+    border-bottom: 3px dotted #007fb7;
+  }
+}
 .bezos .wealth {
-  width: 400000px;
+  width: 370000px;
   height: 500px;
   background-color: orange;
 }
 .four-hundred .wealth {
   margin-left: 100px;
-  width: 7000000px;
+  width: 6401200px;
   height: 500px;
   background-color: #03A9F4;
 }
@@ -326,7 +326,7 @@ h1 {
   position: absolute;
   top: 450px;
   width: 170px;
-  background-image: url(img/scale.svg);
+  background-image: url(img/scale.1.0.svg);
   background-repeat: no-repeat;
   background-position: 0px 4px;
   display: flex;
@@ -382,6 +382,14 @@ h1 {
 }
 .year-veteran .square {
   position: static;
+}
+@media (max-width: 450px) {
+ .year-veteran .title {
+   max-width: 210px;
+ }
+ .year-veteran .square {
+   border-bottom: 4px dashed #75a23e;
+ }
 }
 .year-chemo {
   width: auto;
@@ -439,6 +447,9 @@ h1 {
   height: 289.8px;
   background-color: #9daebf;
 }
+.line-chart svg {
+  max-width: 100%;
+}
 .line-chart .chart-outer {
   width: 720px;
   max-width: 100vw;
@@ -455,9 +466,10 @@ h1 {
 }
 .zoom.line-chart svg {
   transition: all 1.5s;
-  width: 940%;
+  width: 700%;
+  max-width: 700%;
   height: auto;
-  margin-top: -102%;
+  margin-top: -84%;
   margin-left: -20%;
 }
 @media (max-width: 450px) {
@@ -477,8 +489,9 @@ h1 {
   }
   .zoom.line-chart svg {
     width: 1200%;
-    margin-top: -120%;
-    margin-left: -16%;
+    max-width: 1200%;
+    margin-top: -140%;
+    margin-left: -36%;
   }
 }
 @media (min-width: 451px) {
@@ -594,7 +607,10 @@ h1 {
     margin-left: 66px;
   }
 }
-.ninety-wrapper,
+.ninety-wrapper {
+  width: 590px;
+  max-width: 96vw;
+}
 .plane-wrapper {
   width: 480px;
   max-width: 96vw;
@@ -626,15 +642,30 @@ h1 {
   stroke-width: 32;
 }
 @media (max-width: 450px) {
-  .piechart h2 {
+  .piechart.piechart h2 {
     font-size: 17px;
   }
+}
+.point-zero-three-percent .piechart-inner {
+  stroke-dasharray: .03 100;
 }
 .two-point-seven-percent .piechart-inner {
   stroke-dasharray: 2.7 100;
 }
+.three-percent .piechart-inner {
+  stroke-dasharray: 3 100;
+}
+.five-percent .piechart-inner {
+  stroke-dasharray: 5 100;
+}
+.five-point-three-percent .piechart-inner {
+  stroke-dasharray: 5.3 100;
+}
 .six-percent .piechart-inner {
   stroke-dasharray: 6 100;
+}
+.seven-point-five-percent .piechart-inner {
+  stroke-dasharray: 7.5 100;
 }
 .six-percent .piechart-outer {
   transform: rotate(-45deg);
@@ -642,18 +673,28 @@ h1 {
 .six-point-eight-percent .piechart-inner {
   stroke-dasharray: 6.8 100;
 }
+.three-percent .piechart-outer,
+.two-point-five-percent .piechart-outer,
 .two-point-seven-percent .piechart-outer,
 .two-point-eight-percent .piechart-outer {
   transform: rotate(-38deg);
 }
+.five-percent .piechart-outer,
 .four-percent .piechart-outer {
   transform: rotate(-43deg);
 }
 .four-tenths-percent .piechart-outer {
   transform: rotate(-34deg);
 }
+.seven-point-five-percent .piechart-outer,
+.six-point-three-percent .piechart-outer {
+  transform: rotate(-46deg);
+}
 .four-tenths-percent .piechart-inner {
   stroke-dasharray: .4 100;
+}
+.two-point-five-percent .piechart-inner {
+  stroke-dasharray: 2.5 100;
 }
 .two-point-eight-percent .piechart-inner {
   stroke-dasharray: 2.8 100;
@@ -661,11 +702,14 @@ h1 {
 .four-point-three-percent .piechart-inner {
   stroke-dasharray: 4.3 100;
 }
+.six-point-three-percent .piechart-inner {
+  stroke-dasharray: 6.3 100;
+}
 .four-point-eight-percent .piechart-inner {
   stroke-dasharray: 4.8 100;
 }
-.thirty-six-percent .piechart-inner {
-  stroke-dasharray: 36 100;
+.forty-percent .piechart-inner {
+  stroke-dasharray: 40 100;
 }
 .piechart .dotted-line {
   position: absolute;
@@ -681,6 +725,9 @@ h1 {
   left: 347px;
   top: -7px;
   font-size: 24px;
+}
+.piechart h2 {
+  font-size: 20px;
 }
 @media (max-width: 450px) {
   .piechart .label {
@@ -735,7 +782,7 @@ h1 {
   width: 90vw;
 }
 .malaria .babies {
-  height: 9120320px;
+  height: 8800320px;
   background-size: 160px;
   background-image: url(img/baby.svg);
 }
@@ -760,7 +807,7 @@ h1 {
   }
   .malaria .babies {
     background-size: 68px;
-    height: 3876340px;
+    height: 3740340px;
   }
   .scroll-indicator {
     top: 38%;
@@ -794,7 +841,7 @@ h1 {
 }
 .malaria-bar .square {
   height: 400px;
-  width: 337px;
+  width: 1022px;
   background-color: #66c35a;
   display: flex;
   box-sizing: border-box;
@@ -841,6 +888,11 @@ h1 {
 .all-of-them .title {
   width: 370px;
 }
+@media (max-width: 450px) {
+  .all-of-them .title {
+    width: 340px;
+  }
+}
 .instructions {
   transition: opacity 300ms;
   margin-top: 40px;
@@ -856,4 +908,7 @@ h1 {
   .instructions {
     display: none;
   }
+}
+.medical-chart {
+  text-align: center;
 }

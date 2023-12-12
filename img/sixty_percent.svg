@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="109 21 648 462" width="648" height="462">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="15" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="15" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.4\n2021-04-04 02:07:48 +0000</metadata>
+  <g id="Canvas_1" stroke-dasharray="none" stroke="none" fill-opacity="1" fill="none" stroke-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_4">
+        <path d="M 346.7674 431.1609 C 278.83097 385.28816 260.89018 292.9908 306.6955 225.0089 C 352.5005 157.02677 444.70584 139.10387 512.642 184.97696 C 580.57845 230.8497 598.51924 323.14706 552.7139 391.12896 C 506.90894 459.1111 414.7036 477.034 346.7674 431.1609" fill="#00bfc0"/>
+      </g>
+      <g id="Graphic_6">
+        <text transform="translate(135.5 370.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Give $10,000 to every </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="33.448">American household</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <text transform="translate(271 26.6)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Vaccinate the world against covid</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <text transform="translate(446 60.8)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Eradicate malaria</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <text transform="translate(478 95)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Wipeout delinquent medical debt</tspan>
+        </text>
+      </g>
+      <g id="Graphic_48">
+        <text transform="translate(431.5 278.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="34.90389" y="14">Remainder:</tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="6.666391" y="32.42">$1,300,000,000,000</tspan>
+        </text>
+      </g>
+      <g id="Graphic_49">
+        <path d="M 429.70315 308.14292 L 315.94555 212.68896 C 331.00918 194.73683 350.1077 180.60467 371.6796 171.44795 L 429.70315 308.14292 Z" fill="#424242"/>
+      </g>
+      <g id="Graphic_9">
+        <path d="M 429.69983 308.10148 L 371.67626 171.4065 C 388.4236 164.29769 406.3347 160.3269 424.51726 159.69194 L 429.69983 308.10148 Z" fill="#5e5e5e"/>
+      </g>
+      <g id="Graphic_14">
+        <path d="M 429.6843 308.0865 L 424.50174 159.67696 C 433.14134 159.37526 441.7908 159.82856 450.3515 161.03169 L 429.6843 308.0865 Z" fill="#797979"/>
+      </g>
+      <g id="Graphic_23">
+        <path d="M 429.68067 308.1212 L 450.3479 161.0664 C 458.0516 162.1491 465.65835 163.83547 473.09787 166.10996 L 429.68067 308.1212 Z" fill="#c1c1c1"/>
+      </g>
+      <g id="Graphic_5">
+        <path d="M 429.7047 308.06893 L 468.13934 451.5089 C 388.9196 472.7358 307.4916 425.7233 286.26473 346.50356 C 273.72487 299.70417 284.80386 249.73005 315.9471 212.61497 L 429.7047 308.06893 Z" fill="#212121"/>
+      </g>
+      <g id="Graphic_50">
+        <text transform="translate(114 159.5508)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="26.072" y="15">Provide clean water and toilet </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="56.72" y="33.448">access to all humans</tspan>
+        </text>
+      </g>
+      <g id="Graphic_51">
+        <path d="M 429.6995 307.9942 L 473.1167 165.98293 C 473.9429 166.23552 474.7669 166.49532 475.58854 166.7623 L 429.6995 307.9942 Z" fill="#ebebeb"/>
+      </g>
+      <g id="Graphic_52">
+        <text transform="translate(487.6 129.2)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Paid family leave (annual)</tspan>
+        </text>
+      </g>
+      <g id="Line_53">
+        <line x1="391.008" y1="50.048" x2="399.37984" y2="163.5" stroke="black" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_55">
+        <line x1="443" y1="70.024" x2="437.75194" y2="159.30233" stroke="black" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_57">
+        <line x1="473" y1="104.224" x2="461.938" y2="163.02326" stroke="black" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_60">
+        <line x1="482.6" y1="138.424" x2="474.4543" y2="166.36059" stroke="black" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
